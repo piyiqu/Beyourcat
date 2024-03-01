@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin: 0;}
+a{text-decoration: none; display: inline-block; line-height: 30px;}
+a:link{text-decoration: none;color:#D29073;}
+a:visited{color:#E93989;}
+a:hover{color: #5BC8E0;}
+a:active{color: #DE5C3C;}
+.top{width: 1000px;height: 150px;margin: 0 auto;}
+.cat{width:200px;height: 150px;float: left;margin: 0 auto;}
+.navigation{width: 1000px;height: 50px;margin: 0 auto;line-height: 50px; background-image: url("图片/背景图.jpg");font-size: 30px;}
+.tr{width: 200px;height: 50px;float: left;}
+.photo{width: 900px;height: 400px;margin: 0 auto;}
+.introduction{width: 1000px;height: 200px;margin: 0 auto;}
+.cat1{width: 200px;height: 200px;float: left;}
+.chara{width:800px;height: 200px;float: left;font-size: 20px;}
+.bottom{width: 1000px;height: 50px;margin: 0 auto;}
+.phto2{width: 1000px;height: 100px;margin: 0 auto;}
