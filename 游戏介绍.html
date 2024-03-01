@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>游戏介绍</title>
+<link rel="stylesheet" href="游戏介绍.css" type="text/css">
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.js"></script>
+<script> 
+$(document).ready(function(){
+//游戏IP
+  $("button").click(function(){
+    $(".cartoon").animate({
+      height:'toggle'
+    });
+  });
+//游戏简介
+	$(".flip").click(function(){
+    $(".panel").slideToggle("slow");
+  });
+});
+</script> 
+</head>
+
+<body>
+<div class="top"> 
+	<div class="cat"><img src="图片/小橘1.jpg" width="200" height="100"></div>
+	<div class="name"><img src="图片/名字5.jpg" width="600" height="100"></div>
+	<div class="cat"><img src="图片/小橘2.jpg" width="200" height="100"></div>
+	<div class="none"></div>
+	</div>
+	<div class="navigation">
+		<div class="tr"><a href="首页.html">首页</a></div>
+		<div class="tr"><a href="猫咪介绍.html">猫咪介绍</a></div>
+		<div class="tr"><a href="大坏鼠集市.html">大坏鼠集市</a></div>
+		<div class="tr"><a href="游戏介绍.html">游戏介绍</a></div>
+	</div>
+<center><button>游戏角色展示</button></center>
+<div class="cartoon">
+	<img src="图片/排排坐.jpg" width="1000" height="150">
+</div>
+<div class="nonthing"></div>
+<div class="panel">
+<p>由大坏鼠工作室开发的动物养成类游戏</p>
+<p>《遇见你的猫》是一款手绘风格的治愈系养成小游戏。在游戏中玩家可以云养猫、抓喵蛋蛋、开启日记章节以及观看有趣的喵圈</p>
+<p>采用了可爱卡通的画面风格设计，拥有充满治愈系的画风，可爱的造型，逼真的场地，趣味的互动</p>
+</div>
+<p class="flip">游戏简介</p>
+<div class="phto"><img src="图片/游戏介绍大图.jpg" width="1000" height="400"></div>
+<div class="content">
+	<div class="clasify"><strong>❤游戏内容</strong>&nbsp;&nbsp;⭐装饰小屋   ⭐云养猫    ⭐穿搭设计   ⭐喵圈   ⭐趣味娃娃机</div>
+	<div class="picture">
+		<img src="图片/家具.jpg" width="190" height="400">
+		<img src="图片/撸猫.jpg" width="200" height="400">
+		<img src="图片/服饰.jpg" width="200" height="400">
+		<img src="图片/剧情.jpg" width="200" height="400">
+		<img src="图片/盲盒.jpg" width="190" height="400">
+	</div>
+	</div>
+	<div class="bootom">
+		<div class="wetbo"><img src="图片/微博哦.jpg" width="200" height="120"></div>
+		<div class="word">
+			<center><br>IP合作<br>大坏鼠工作室<br>合作邮箱badmouse@bad-mouse.com<br><font color="#98340E">该游戏支持手机app和微信小程序</font></center>
+		</div>
+	</div>
+
+</body>
+</html>
