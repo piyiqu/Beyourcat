@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+	<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script language="javascript">
+		function getmessage(){
+			form.username = document.getElementById("username").value;
+			form.userpassword = document.getElementById("userpassword").value;
+			form.userqrpassword = document.getElementById("userqrpassword").value;
+			form.useremail = document.getElementById("useremail").value;
+			var pattern= /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+			var checkemail=pattern.test(useremail);
+			if(form.username.value == "")
+				{
+					alert("用户名不能为空！");
+				}
+				
+			 if(form.username.length > 5)
+				{
+					alert("用户名长度不能超过5！");
+				}
+				
+		    if(form.userpassword.value == "")
+				{
+					alert("密码不能为空！");
+				}
+				
+			 if(form.userqrpassword.value == "")
+				{
+					alert("确认密码不能为空！");
+				}
+				
+			if(form.userpassword.value != form.userqrpassword.value)
+				{
+					alert("两个密码不一致！");
+				}
+				
+			
+				
+		}
+	</script>
+    <style>
+        table {
+            width: 600px;
+            border: 1px dashed;
+			border-spacing: 0;
+        }
+
+        .t1 {
+            width: 150px;
+			border: 1px dashed;
+			border-spacing: 0;
+        }
+
+        .th {
+            text-align: center;
+        }
+		.none{width: 600px;height:  200px;font-size: 30px}
+		a{text-decoration: none; display: inline-block; line-height: 30px;}
+		a:link{text-decoration: none;color:#D29073;}
+		a:visited{color:#E93989;}
+		a:hover{color: #5BC8E0;}
+		a:active{color: #DE5C3C;}
+    </style>
+</head>
+<body background="图片/背景图.jpg">
+	<div><img src="图片/左箭头.jpg" width="30" height="30"><a href="首页.html">&nbsp;返回首页</a></div>
+    <center>
+		<form method="post" action="mailto:ivan@qq.com?subject=注册.html" onSubmit="return getmessage()" enctype="text/plain;" name="form">
+		<div class="none">
+			<img src="图片/cat6.gif" width="180" height="200">
+			<img src="图片/cat7.gif" width="190" height="200">
+			<img src="图片/cat6.gif" width="180" height="200">
+			</div>
+		<table border="">
+        	<tr>
+            	<td class="t1" colspan="2"><center>注册</center></td>
+        	</tr>
+        	<tr>
+            	<td class="t1"> 用户名 </td>
+            	<td class="t1"><input id="username" type="text" value="" name="Username" ></td>
+        	</tr>
+        	<tr>
+            	<td class="t1"> 密码 </td>
+            	<td class="t1"><input id="userpassword" type="password" value="" name="Password" ></td>
+        	</tr>
+        	<tr>
+            	<td class="t1"> 确认密码 </td>
+            	<td class="t1"><input id="userqrpassword" type="password"> </td>
+	        </tr>
+        	<tr>
+            	<td class="t1"> Email </td>
+            	<td class="t1"><input id="useremail" type="email" value="" name="Email"> <br>请确认邮箱有效，我们将发送注册信息到这个地址</td>
+
+        	</tr>
+			<tr class="t1">
+            <td colspan="2" class="th"><input type="submit" value="提交" onClick="getmessage()"></td>
+            </tr>
+			<tr>
+				<td class="t1" colspan="2">已有账号？请点击<a href="登录.html">登录</a></td>
+			</tr>
+    	</table>
+			<div class="none">
+				<br>
+				<img src="图片/cat5.gif" width="50" height="50">快来加入我们猫咪俱乐部吧！！！❤❤
+			</div>
+		</form>
+	</center>
+</body>
+</html>
