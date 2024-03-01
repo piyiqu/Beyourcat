@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin: 0;}
+a{text-decoration: none; display: inline-block; line-height: 30px;}
+a:link{text-decoration: none;color:#D29073;}
+a:visited{color:#E93989;}
+a:hover{color: #5BC8E0;}
+a:active{color: #DE5C3C;}
+.top{width: 1000px;height: 150px;margin: 0 auto;}
+.phto{width:200px;height: 150px;margin: 0 auto;float: left;}
+.name{width: 600px;height: 150px;margin: 0 auto;float: left;}
+.navigation{width: 1000px;height: 50px;margin: 0 auto;line-height: 50px; background-image: url("图片/背景图.jpg");font-size: 30px;}
+.tr{width: 200px;height: 50px;float: left;}
+.classify{width: 1000px;height: 50px;background-image:url("图片/背景图.jpg"); margin: 0 auto;line-height: 50px;font-size: 20px;}
+.product{width: 1000px;height: 200px;margin: 0 auto;}
+.products{width: 200px;height: 200px;margin: 0 auto;float: left;}
+.price{width: 1000px;height: 50px;margin: 0 auto;}
+.prices{width: 200px;height: 50px;margin: 0 auto;float: left;}
+.none{width: 65px;height: 200px; float: left;}
+.none1{width: 65px;height: 50px; float: left;}
+.introduction{width: 1000px;height: 80px;font-size: 20px;margin: 0 auto;}
+.picture{width: 1000px;height: 400px;margin: 0 auto;}
