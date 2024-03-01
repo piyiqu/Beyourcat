@@ -1,0 +1,30 @@
+@charset "utf-8"; 
+ /* css Document */ 
+body{margin: 0;}
+.heard{width: 1000px;height: 150px;margin: 0 auto;}
+.logo{width: 300px;height: 150px;float: left;}
+.phto{width:150px;height: 150px;float: left;}
+.name{width: 400px;height:150px;float: left;}
+.body1{width: 1000px;height: 400px;margin: 0 auto;}
+.left{width: 200px; height: 400px; background:#7C7834;float:left;}
+ul{list-style: none;margin: 0;padding: 0;text-align: center;font-size: 25px;}
+li{width: 200px;height: 100px;line-height: 100px;background-image: url("图片/背景图.jpg");}
+a{text-decoration: none; display: inline-block; line-height: 100px;}
+a:link{text-decoration: none;color:#D29073;}
+a:visited{color:#E93989;}
+a:hover{color: #5BC8E0;display: inline-block;width: 200px;height: 100px;background:white;}
+a:active{color: #DE5C3C;}
+.right{width: 800px;height: 400px;float: left;}
+.top{width: 600px;height: 400px;}
+.body2{width:1000px;height: 200px;margin: 0 auto;}
+.content{width: 500px;height: 200px;float: left;}
+.content ul{margin: 0;padding: 0;font-size: 30px;text-align: left;}
+.content li{width: 500px;height: 100px;background-image:url("图片/背景图.jpg");}
+.content a{text-decoration: none; display: inline-block; line-height: 100px;width: 500px;height: 100px;background-image: url("图片/背景图.jpg");}
+.content a:hover{color: black;}
+.body3{width: 1000px;margin: 0 auto;height: 500px;padding: 0;border: 0;}
+.bottom{width: 1000px;height: 200px;margin: 0 auto;}
+.phto2{width: 1000px;height: 100px;margin: 0 auto;}
+
+
+ 
