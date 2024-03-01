@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.top{width: 1000px;height: 100px;margin: 0 auto;}
+	.cat{width:200px;height: 100px;float:left;margin: 0 auto;}
+	.name{width:600px;height: 100px;float:left;margin: 0 auto;}
+	.cartoon{width: 1000px;height: 150px;margin: 0 auto;background: white;}
+	.none{clear: both;}
+	button{background-color: white;color: #AA5A1F;}
+	.navigation{width: 1000px;height: 50px;margin: 0 auto;line-height: 50px; background-image: url("图片/背景图.jpg");font-size: 25px;}
+	.tr{width: 200px;height: 50px;float: left;}
+	a{text-decoration: none; display: inline-block; line-height: 30px;}
+	a:link{text-decoration: none;color:#D29073;}
+	a:visited{color:#E93989;}
+	a:hover{color: #5BC8E0;}
+	a:active{color: #DE5C3C;}
+div.panel,p.flip
+{
+width: 1000px;
+margin:0px auto;
+padding:0px;
+text-align:center;
+background:url("图片/粉色背景图.jpg");
+border:solid 1px #c3c3c3;
+font-size: 20px;
+}
+div.panel
+{
+height:180px;
+display:none;
+}
+.nonthing{width: 1000px;height: 50px;}
+.content{width: 1000px;height: 450px;margin: 0 auto;}
+.clasify{width: 1000px;height: 50px;margin: 0 auto;background: url("图片/背景图.jpg");line-height: 50px;font-size: 20px;}
+.picture{width: 1000px;height: 400px;margin: 0 auto;}
+.phto{width: 1000px;height: 400px;margin:  0 auto;}
+.bootom{width: 1000px;height: 120px;background-image: url("图片/粉色背景图.jpg"); margin: 0 auto;}
+.wetbo{width: 200px;height: 120px;float:left;margin: 0 auto;}
+.word{width: 800px;height: 120px;float: left;margin: 0 auto;}
